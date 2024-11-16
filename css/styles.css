@@ -339,3 +339,16 @@ main {
 }
 
 /* footer */
+
+.footer-section {
+  background-color: rgba(117, 186, 119, 1);
+  height: 400px;
+  border: 2px solid red;
+}
+
+.footer-top-wrapper {
+  border: 1px solid red;
+  height: 122px;
+  max-width: 1200px;
+  margin: 80px auto;
+}
