@@ -270,3 +270,72 @@ main {
 .book-now a {
   color: #fff;
 }
+
+/* escape section */
+
+.escape-section {
+  height: 428px;
+  background-image: url(../images/CTA.png);
+}
+
+/* feedback-wrapper */
+
+.feedback-wrapper {
+  border: 2px solid red;
+  max-width: 1308px;
+  height: 808px;
+  margin: 12px auto 0px;
+  font-family: "Inter", sans-serif;
+}
+
+.feedback-top-text {
+  margin: 112px auto 80px;
+  text-align: center;
+}
+
+.feedback-top-text h3 {
+  font-size: 36px;
+  font-weight: 600;
+}
+
+.feedback-top-text p {
+  font-size: 18px;
+  padding-top: 18px;
+}
+
+.feedback-main-sec {
+  height: 408px;
+  max-width: 1181px;
+  border: 1px solid purple;
+  margin: 80px auto 112px;
+  display: flex;
+  column-gap: 20px;
+}
+
+.feedback-comment {
+  height: 312px;
+  width: 380px;
+  background-color: rgba(242, 242, 242, 1);
+  border: 1px solid black;
+  text-align: center;
+}
+
+.feed-img {
+  margin: 23px 150px 32px;
+  display: flex;
+  column-gap: 4px;
+  border: 1px solid red;
+}
+
+.feedback-comment p {
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.feed-user {
+  height: 100px;
+  width: 72px;
+  margin: 32px auto;
+}
+
+/* footer */
