@@ -1,0 +1,25 @@
+@media (max-width: 768px) {
+  .header-eco {
+    padding: 0px 40px;
+  }
+
+  .header-wrapper {
+    display: none;
+  }
+
+  .header-text {
+    padding: 10px 500px 10px 30px;
+  }
+
+  .drop-down {
+    display: none;
+  }
+
+  .header-botton {
+    display: none;
+  }
+
+  .burger-menu {
+    display: block;
+  }
+}

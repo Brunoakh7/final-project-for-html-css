@@ -18,19 +18,10 @@
   width: 100%;
   height: 44px;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   margin: auto;
-  border: 1px solid red;
-}
-
-.nav-section {
-  width: 400px;
-  padding-right: 130px;
-}
-
-.header-wrapper {
-  display: flex;
+  position: relative;
 }
 
 .header-nav {
@@ -38,21 +29,23 @@
   column-gap: 18px;
   font-size: 16px;
   color: #000;
+  align-items: center;
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
 }
 
 .list-items {
   display: inline;
   color: #000;
+  display: flex;
+  align-items: center;
 }
 
-.main-picture {
-  margin-top: 0px;
-}
-
-.header-middle-section {
-  height: 100%;
-  width: 200px;
-  margin: auto;
+.list-items img {
+  rotate: 90deg;
+  margin-left: 5px;
 }
 
 .header-text {
@@ -62,18 +55,33 @@
 }
 
 .header-right-section {
-  width: 400px;
+  width: 480px;
   height: 100%;
+  display: flex;
 }
 
 .header-botton {
   width: 150px;
   height: 100%;
-  margin-left: 250px;
   border-radius: 5px;
   background-color: #4caf4f;
   color: #fff;
   display: flex;
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+}
+
+.header-botton img {
+  rotate: 90deg;
+}
+
+.burger-menu {
+  display: none;
 }
 
 /* main-section */
@@ -144,12 +152,10 @@ main {
 .french-alps {
   width: 100%;
   max-height: 1325px;
-  border: 2px solid red;
   font-family: "Inter", sans-serif;
 }
 
 .hotel-wrapper {
-  border: 1px solid green;
   height: 937px;
   max-width: 1350px;
   margin: 95px auto 147px;
@@ -167,7 +173,6 @@ main {
   max-width: 695px;
   width: 100%;
   height: 450px;
-  border: 1px solid yellow;
   display: flex;
   column-gap: 27px;
 }
@@ -217,7 +222,6 @@ main {
   max-width: 695px;
   width: 100%;
   height: 450px;
-  border: 1px solid blue;
   display: flex;
   column-gap: 27px;
   margin-top: 35px;
@@ -283,7 +287,6 @@ main {
 /* feedback-wrapper */
 
 .feedback-wrapper {
-  border: 2px solid red;
   max-width: 1308px;
   height: 808px;
   margin: 12px auto 0px;
@@ -308,7 +311,6 @@ main {
 .feedback-main-sec {
   height: 408px;
   max-width: 1181px;
-  border: 1px solid purple;
   margin: 80px auto 112px;
   display: flex;
   column-gap: 20px;
@@ -318,15 +320,12 @@ main {
   height: 312px;
   width: 380px;
   background-color: rgba(242, 242, 242, 1);
-  border: 1px solid black;
   text-align: center;
 }
 
 .feed-img {
-  margin: 23px 150px 32px;
-  display: flex;
-  column-gap: 4px;
-  border: 1px solid red;
+  margin: 23px 0 32px 0;
+  justify-content: center;
 }
 
 .feedback-comment p {
