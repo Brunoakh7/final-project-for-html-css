@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kufam:ital,wght@0,400..900;1,400..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kufam:ital,wght@0,400..900;1,400..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 .container {
   max-width: 1530px;
@@ -86,15 +87,75 @@
 
 /* main-section */
 
-main {
-  background-image: url(../images/Hero_Header.png);
+.main-section {
+  background-image: url(../images/hero-img.png);
   background-position: center;
-  height: 943px;
+  background-size: cover;
+  min-height: 943px;
+  margin-top: 0px;
+  border: 2px solid red;
 }
 
 .main-text {
-  margin-top: 150px auto 0px;
+  height: 179px;
+  max-width: 634px;
+  margin: 185px auto 107px auto;
+  font-family: "Kufam", sans-serif;
 }
+
+.main-text h1 {
+  font-size: 63px;
+  font-weight: 600;
+}
+
+.main-span {
+  color: #4caf4f;
+}
+
+.main-text p {
+  font-size: 18px;
+  padding: 27px 60px 27px 60px;
+}
+
+.main-botton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #4caf4f;
+  border: 2px solid #4caf4f;
+  border-radius: 5px;
+  width: 126px;
+  height: 40px;
+  margin: auto;
+}
+
+.main-botton a {
+  color: #fff;
+}
+
+.main-nav {
+  max-width: 844px;
+  height: 102px;
+  margin: auto;
+  background-color: rgba(243, 243, 243, 0.6);
+  backdrop-filter: blur(35.521236419677734px);
+  color: #fff;
+  font-size: 18px;
+  font-family: "Roboto", serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.first-p {
+  padding-left: 81px;
+}
+
+.search {
+  padding-right: 26px;
+}
+
+/* partners section */
 
 .partners-section {
   height: 340px;
@@ -156,7 +217,7 @@ main {
 }
 
 .hotel-wrapper {
-  height: 937px;
+  max-height: 937px;
   max-width: 1350px;
   margin: 95px auto 147px;
   width: 100%;
@@ -165,14 +226,14 @@ main {
 }
 
 .left-section {
-  height: 936px;
+  max-height: 936px;
   max-width: 675px;
 }
 
 .hotel-top-sec {
   max-width: 695px;
   width: 100%;
-  height: 450px;
+  max-height: 450px;
   display: flex;
   column-gap: 27px;
 }
@@ -213,7 +274,7 @@ main {
 }
 
 .right-section {
-  height: 936px;
+  max-height: 936px;
   max-width: 675px;
   background-color: #f2f2f263;
 }
@@ -228,12 +289,12 @@ main {
 }
 
 .right-section {
-  height: 936px;
+  max-height: 936px;
   max-width: 675px;
 }
 
 .text-right-sec {
-  width: 450px;
+  max-width: 450px;
   height: 175px;
   margin: 26px 26px;
   text-align: left;
@@ -255,7 +316,7 @@ main {
 .link-wrapper {
   display: flex;
   align-items: center;
-  width: 595px;
+  max-width: 595px;
   height: 80px;
   margin-left: 28px;
 }
@@ -281,7 +342,48 @@ main {
 
 .escape-section {
   height: 428px;
-  background-image: url(../images/CTA.png);
+  width: 100%;
+  background-image: url(../images/escape.img);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.escape-text-sec {
+  max-width: 768px;
+  height: 204px;
+  border: 1px solid red;
+  padding: auto;
+  text-align: center;
+}
+
+.escape-text-sec h2 {
+  font-size: 36px;
+  color: #fff;
+}
+
+.escape-text-sec p {
+  font-size: 18px;
+  line-height: 28px;
+  color: #fff;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+.discount {
+  border: 2px solid #fff;
+  border-radius: 5px;
+  width: 147px;
+  height: 40px;
+}
+
+.escape-btn {
+  display: flex;
+  align-items: center;
+  column-gap: 16px;
+}
+
+.discount a {
+  color: #fff;
 }
 
 /* feedback-wrapper */
